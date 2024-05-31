@@ -17,7 +17,7 @@ body {
 
 #background-video {
     position: absolute;
-    top: 62%;
+    top: 59%;
     left: 50%;
     max-height: calc(100vw - 70vw);
     min-height: 400px;
