@@ -10,13 +10,14 @@ body {
     overflow: hidden; 
     width: 100%;
     height: 100vh;
+    min-height: 680px;
     text-align: center;
     transition: height 0.5s ease-in-out, max-width 0.5s ease-in-out;
 }
 
 #background-video {
     position: absolute;
-    top: 66%;
+    top: 62%;
     left: 50%;
     max-height: calc(100vw - 70vw);
     min-height: 400px;
