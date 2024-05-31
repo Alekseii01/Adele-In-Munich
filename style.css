@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.wrapper {
+    position: relative;
+    overflow: hidden; 
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    transition: height 0.5s ease-in-out, max-width 0.5s ease-in-out;
+}
+
+#background-video {
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    max-height: calc(100vw - 70vw);
+    min-height: 400px;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper .content {
+    position: relative;
+    z-index: 1;
+}
+
+.font {
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-size: .8em;
+}
+
+.font-copyright {
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #f2a900;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-size: .5em;
+}
+
+.title{
+    font-size: 1em;
+    text-transform: none;
+}
+
+.header__wrapper {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    width: 95%;
+    padding: 0 18px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.logo {
+    max-width: 450px;
+    margin: 0 auto;
+    transition: max-width 0.5s ease-in-out;
+}
+
+.dates {
+    max-width: 350px;
+    margin: 0 auto;
+    transition: max-width 0.5s ease-in-out;
+}
+
+img {
+    max-width: 100%;
+}
+
+.links {
+    position: absolute;
+    width: 100%;
+    bottom: 15px;
+    left: 0;
+}
+
+.content {
+    margin: 20px 0;
+}
+
+.media {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin:  0 auto;
+    font-size: 1em;
+}
+
+.sotial-links {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.sotial-links li {
+    font-size: 1.5em;
+    margin: 0 10px;
+}
+
+.font-copyright-links {
+    font-size: .5em;
+}
+
+.font-copyright-links a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.pipe {
+    color: #f2a900;
+    margin: 0 10px;
+}
+
+.sotial-links li a:hover {
+    color: #f2a900;
+    transition: all 0.2s;
+}
+ 
+ .footer_wrapper > p {
+    margin: 0 auto;
+    display: table;
+ }
+
+button {
+    background: transparent;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 15px;
+    width: 280px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: #fff 1px solid;
+    overflow: hidden;
+    margin-left: 20px;
+  }
+  
+  span {
+    display: inline-block;
+  }
+
+  button:hover {
+    background: white;
+    color: black;
+    transition: all 0.5s;
+  }
+  
+  button:hover::before {
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
+
+  a {
+    color: white;
+  }
