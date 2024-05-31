@@ -128,7 +128,7 @@ img {
 
 .pipe {
     color: #f2a900;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 .sotial-links li a:hover {
@@ -139,6 +139,7 @@ img {
  .footer_wrapper > p {
     margin: 0 auto;
     display: table;
+    text-align: center;
  }
 
 button {
