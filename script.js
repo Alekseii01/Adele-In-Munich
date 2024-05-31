@@ -8,7 +8,7 @@ function updateCurrentSize() {
   if (document.documentElement.clientWidth < 1000) {
     logo.style.maxWidth = '250px';
     dates.style.maxWidth = '200px';
-    wrapper.style.height = '70vh'; 
+    wrapper.style.height = '80vh'; 
   } else {
     logo.style.maxWidth = '';
     dates.style.maxWidth = '';
